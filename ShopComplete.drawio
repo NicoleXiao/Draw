@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-24T01:42:58.694Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15" etag="REMBIOuubYE179q9-rTo" version="14.9.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-24T01:45:30.140Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15" etag="f-pXUTs1EKmXLnCU7PXi" version="14.9.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1838" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -144,7 +144,7 @@
         <mxCell id="yUcs0hcdkxNYvrhnhqyb-93" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="yUcs0hcdkxNYvrhnhqyb-70" target="yUcs0hcdkxNYvrhnhqyb-92" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yUcs0hcdkxNYvrhnhqyb-70" value="&lt;span&gt;显示商城开通会员界面&lt;/span&gt;" style="whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="yUcs0hcdkxNYvrhnhqyb-70" value="根据运营配置tab优先级显示界面" style="whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="162.5" y="540" width="125" height="44.5" as="geometry" />
         </mxCell>
         <mxCell id="yUcs0hcdkxNYvrhnhqyb-88" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="yUcs0hcdkxNYvrhnhqyb-83" target="yUcs0hcdkxNYvrhnhqyb-85" edge="1">
