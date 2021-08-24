@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-24T01:45:30.140Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15" etag="f-pXUTs1EKmXLnCU7PXi" version="14.9.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-24T01:46:01.345Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15" etag="T5SGcO_YoAxuTGz7sQOr" version="14.9.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1838" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -174,7 +174,7 @@
         <mxCell id="yUcs0hcdkxNYvrhnhqyb-63" value="购买成功" style="whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="3.75" y="1030" width="102.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="yUcs0hcdkxNYvrhnhqyb-97" value="打开客服html5界面" style="whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="yUcs0hcdkxNYvrhnhqyb-97" value="打开客服界面" style="whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="167.5" y="710" width="115" height="50" as="geometry" />
         </mxCell>
         <mxCell id="yUcs0hcdkxNYvrhnhqyb-112" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="yUcs0hcdkxNYvrhnhqyb-99" target="yUcs0hcdkxNYvrhnhqyb-110" edge="1">
