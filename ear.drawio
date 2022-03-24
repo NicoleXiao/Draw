@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-24T10:30:01.047Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="33FOiiPLhMDrAIFxTi5Q" version="17.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-24T10:39:09.107Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="tsUnH3YIamN_YjOn0_v8" version="17.1.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="946" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="867" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -39,10 +39,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tlVY8ZqabNdBZSSm1T8Y-15" value="&lt;span&gt;同一行是否存在&lt;br&gt;被选中的卡牌&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="152.5" y="300" width="135" height="90" as="geometry" />
+          <mxGeometry x="152.5" y="290" width="135" height="80" as="geometry" />
         </mxCell>
         <mxCell id="tlVY8ZqabNdBZSSm1T8Y-26" value="&lt;span&gt;取消之前选中的卡牌，当前卡牌设置选中状态&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="330" y="317.5" width="120" height="55" as="geometry" />
+          <mxGeometry x="354" y="302.5" width="120" height="55" as="geometry" />
         </mxCell>
         <mxCell id="tlVY8ZqabNdBZSSm1T8Y-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tlVY8ZqabNdBZSSm1T8Y-29" target="tlVY8ZqabNdBZSSm1T8Y-36">
           <mxGeometry relative="1" as="geometry" />
@@ -55,11 +55,16 @@
         <mxCell id="tlVY8ZqabNdBZSSm1T8Y-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tlVY8ZqabNdBZSSm1T8Y-29" target="tlVY8ZqabNdBZSSm1T8Y-43">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="tlVY8ZqabNdBZSSm1T8Y-77" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tlVY8ZqabNdBZSSm1T8Y-44">
+          <mxGeometry x="-0.68" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="tlVY8ZqabNdBZSSm1T8Y-29" value="存在两个选中卡牌" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="157.5" y="420" width="125" height="90" as="geometry" />
+          <mxGeometry x="157.5" y="400" width="125" height="80" as="geometry" />
         </mxCell>
         <mxCell id="tlVY8ZqabNdBZSSm1T8Y-36" value="游戏继续" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="330" y="440" width="90" height="50" as="geometry" />
+          <mxGeometry x="369" y="415" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="tlVY8ZqabNdBZSSm1T8Y-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tlVY8ZqabNdBZSSm1T8Y-43" target="tlVY8ZqabNdBZSSm1T8Y-45">
           <mxGeometry relative="1" as="geometry" />
@@ -78,16 +83,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tlVY8ZqabNdBZSSm1T8Y-43" value="是否匹配" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="157.5" y="530" width="125" height="90" as="geometry" />
+          <mxGeometry x="157.5" y="510" width="125" height="80" as="geometry" />
         </mxCell>
         <mxCell id="tlVY8ZqabNdBZSSm1T8Y-45" value="两个卡牌播放匹配失败动画，清除选中状态" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="330" y="545" width="120" height="60" as="geometry" />
+          <mxGeometry x="354" y="520" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tlVY8ZqabNdBZSSm1T8Y-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tlVY8ZqabNdBZSSm1T8Y-53" target="tlVY8ZqabNdBZSSm1T8Y-56">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tlVY8ZqabNdBZSSm1T8Y-53" value="播放匹配成功动画" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="160" y="660" width="120" height="60" as="geometry" />
+          <mxGeometry x="165" y="620" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="tlVY8ZqabNdBZSSm1T8Y-62" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tlVY8ZqabNdBZSSm1T8Y-56" target="tlVY8ZqabNdBZSSm1T8Y-61">
           <mxGeometry relative="1" as="geometry" />
@@ -96,10 +101,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tlVY8ZqabNdBZSSm1T8Y-56" value="当前阶段是否结束" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="157.5" y="750" width="125" height="90" as="geometry" />
+          <mxGeometry x="157.5" y="710" width="125" height="90" as="geometry" />
         </mxCell>
         <mxCell id="tlVY8ZqabNdBZSSm1T8Y-61" value="游戏继续" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="30" y="767.5" width="75" height="55" as="geometry" />
+          <mxGeometry x="30" y="727.5" width="75" height="55" as="geometry" />
         </mxCell>
         <mxCell id="tlVY8ZqabNdBZSSm1T8Y-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tlVY8ZqabNdBZSSm1T8Y-65" target="tlVY8ZqabNdBZSSm1T8Y-67">
           <mxGeometry relative="1" as="geometry" />
@@ -118,10 +123,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tlVY8ZqabNdBZSSm1T8Y-65" value="判断游戏是否结束" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="325" y="750" width="125" height="90" as="geometry" />
+          <mxGeometry x="325" y="710" width="125" height="90" as="geometry" />
         </mxCell>
         <mxCell id="tlVY8ZqabNdBZSSm1T8Y-67" value="播放动物End动画&lt;br&gt;游戏结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="332.5" y="880" width="110" height="40" as="geometry" />
+          <mxGeometry x="332.5" y="840" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="tlVY8ZqabNdBZSSm1T8Y-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tlVY8ZqabNdBZSSm1T8Y-72" target="tlVY8ZqabNdBZSSm1T8Y-6">
           <mxGeometry relative="1" as="geometry" />
