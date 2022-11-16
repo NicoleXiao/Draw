@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-16T03:20:04.081Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15" etag="hJXQE3lZ05BpDKcTIWCO" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-16T03:39:14.812Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15" etag="r0mNysCDZDq6Vb_Mi_JQ" version="20.5.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1044" dy="625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -85,36 +85,78 @@
           <mxGeometry y="720" width="360" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AacFh0MCW6tZDm3H_jUm-55" value="UserManager 用户信息管理" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="680" y="200" width="360" height="420" as="geometry">
+          <mxGeometry x="680" y="200" width="440" height="606" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AacFh0MCW6tZDm3H_jUm-56" value="wordCourseList  普通（字）课程学习记录  " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AacFh0MCW6tZDm3H_jUm-55">
-          <mxGeometry y="26" width="360" height="26" as="geometry" />
+        <mxCell id="AacFh0MCW6tZDm3H_jUm-56" value="name  用户昵称&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AacFh0MCW6tZDm3H_jUm-55">
+          <mxGeometry y="26" width="440" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AacFh0MCW6tZDm3H_jUm-84" value="uid&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AacFh0MCW6tZDm3H_jUm-55">
+          <mxGeometry y="52" width="440" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AacFh0MCW6tZDm3H_jUm-85" value="sex 用户性别" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AacFh0MCW6tZDm3H_jUm-55">
+          <mxGeometry y="78" width="440" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AacFh0MCW6tZDm3H_jUm-87" value="birth 用户生日" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AacFh0MCW6tZDm3H_jUm-55">
+          <mxGeometry y="104" width="440" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AacFh0MCW6tZDm3H_jUm-88" value="phone 用户手机号&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AacFh0MCW6tZDm3H_jUm-55">
+          <mxGeometry y="130" width="440" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AacFh0MCW6tZDm3H_jUm-89" value="portrait 用户头像类型" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AacFh0MCW6tZDm3H_jUm-55">
+          <mxGeometry y="156" width="440" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AacFh0MCW6tZDm3H_jUm-90" value="studyType 学习进度类型（无限制等）" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AacFh0MCW6tZDm3H_jUm-55">
+          <mxGeometry y="182" width="440" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AacFh0MCW6tZDm3H_jUm-91" value="timeType 学习时间类型（无限制等）" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AacFh0MCW6tZDm3H_jUm-55">
+          <mxGeometry y="208" width="440" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AacFh0MCW6tZDm3H_jUm-92" value="studyDayCount  学习天数&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AacFh0MCW6tZDm3H_jUm-55">
+          <mxGeometry y="234" width="440" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AacFh0MCW6tZDm3H_jUm-94" value="studWordCount  学习字数&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AacFh0MCW6tZDm3H_jUm-55">
+          <mxGeometry y="260" width="440" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AacFh0MCW6tZDm3H_jUm-95" value="studyBookCount 阅读绘本数&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AacFh0MCW6tZDm3H_jUm-55">
+          <mxGeometry y="286" width="440" height="26" as="geometry" />
         </mxCell>
         <mxCell id="AacFh0MCW6tZDm3H_jUm-62" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="AacFh0MCW6tZDm3H_jUm-55">
-          <mxGeometry y="52" width="360" height="8" as="geometry" />
+          <mxGeometry y="312" width="440" height="8" as="geometry" />
         </mxCell>
         <mxCell id="AacFh0MCW6tZDm3H_jUm-63" value="IsVip" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AacFh0MCW6tZDm3H_jUm-55">
-          <mxGeometry y="60" width="360" height="26" as="geometry" />
+          <mxGeometry y="320" width="440" height="26" as="geometry" />
         </mxCell>
         <mxCell id="AacFh0MCW6tZDm3H_jUm-64" value="IsForeverVip" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AacFh0MCW6tZDm3H_jUm-55">
-          <mxGeometry y="86" width="360" height="26" as="geometry" />
+          <mxGeometry y="346" width="440" height="26" as="geometry" />
         </mxCell>
         <mxCell id="AacFh0MCW6tZDm3H_jUm-65" value="GetIsVisitor" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AacFh0MCW6tZDm3H_jUm-55">
-          <mxGeometry y="112" width="360" height="26" as="geometry" />
+          <mxGeometry y="372" width="440" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="AacFh0MCW6tZDm3H_jUm-66" value="GetUcId" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AacFh0MCW6tZDm3H_jUm-55">
-          <mxGeometry y="138" width="360" height="26" as="geometry" />
+        <mxCell id="AacFh0MCW6tZDm3H_jUm-66" value="GetHaveBindWechat" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AacFh0MCW6tZDm3H_jUm-55">
+          <mxGeometry y="398" width="440" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="AacFh0MCW6tZDm3H_jUm-81" value="GetUcId" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AacFh0MCW6tZDm3H_jUm-55">
-          <mxGeometry y="164" width="360" height="26" as="geometry" />
+        <mxCell id="AacFh0MCW6tZDm3H_jUm-96" value="GetUserInfo  从服务器拉取用户相关信息" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AacFh0MCW6tZDm3H_jUm-55">
+          <mxGeometry y="424" width="440" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="AacFh0MCW6tZDm3H_jUm-82" value="SetUid" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AacFh0MCW6tZDm3H_jUm-55">
-          <mxGeometry y="190" width="360" height="26" as="geometry" />
+        <mxCell id="AacFh0MCW6tZDm3H_jUm-97" value="SetUserInfo   上传服务器设置用户相关信息" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AacFh0MCW6tZDm3H_jUm-55">
+          <mxGeometry y="450" width="440" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="AacFh0MCW6tZDm3H_jUm-83" value="GetName" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AacFh0MCW6tZDm3H_jUm-55">
-          <mxGeometry y="216" width="360" height="26" as="geometry" />
+        <mxCell id="AacFh0MCW6tZDm3H_jUm-98" value="OnJoinFinished  登录成功以后的事件处理" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AacFh0MCW6tZDm3H_jUm-55">
+          <mxGeometry y="476" width="440" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AacFh0MCW6tZDm3H_jUm-99" value="Join   登录" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AacFh0MCW6tZDm3H_jUm-55">
+          <mxGeometry y="502" width="440" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AacFh0MCW6tZDm3H_jUm-100" value="ActiveUserRights  激活用户权益" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AacFh0MCW6tZDm3H_jUm-55">
+          <mxGeometry y="528" width="440" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AacFh0MCW6tZDm3H_jUm-101" value="GetUserPrivilege 获取用户权益信息" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AacFh0MCW6tZDm3H_jUm-55">
+          <mxGeometry y="554" width="440" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AacFh0MCW6tZDm3H_jUm-102" value="PostIgnoreActivePopupTip 忽略激活权益提醒，当再次拥有激活权益时才重新提示" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AacFh0MCW6tZDm3H_jUm-55">
+          <mxGeometry y="580" width="440" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
