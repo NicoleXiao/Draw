@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-09T09:29:42.750Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15" etag="m062kd2eBieJwFubteeu" version="20.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-09T09:34:59.692Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15" etag="xUw1zGuMJHoiNoKavnor" version="20.8.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="872" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -12,83 +12,80 @@
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--1" value="statisticData 埋点数据" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
           <mxGeometry y="26" width="350" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="zkfFHV4jXpPFQw0GAbJ--3" value="Email Address" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
-          <mxGeometry y="52" width="350" height="26" as="geometry" />
-        </mxCell>
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--4" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
-          <mxGeometry y="78" width="350" height="8" as="geometry" />
+          <mxGeometry y="52" width="350" height="8" as="geometry" />
         </mxCell>
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--5" value="Init() 初始化工作，2d和3d游戏节点等" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
-          <mxGeometry y="86" width="350" height="26" as="geometry" />
+          <mxGeometry y="60" width="350" height="26" as="geometry" />
         </mxCell>
         <mxCell id="U7nyW-L80Z0Z42NXBnHz-1" value="GetGameRoot(3d) 获取游戏节点" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--0">
-          <mxGeometry y="112" width="350" height="26" as="geometry" />
+          <mxGeometry y="86" width="350" height="26" as="geometry" />
         </mxCell>
         <mxCell id="U7nyW-L80Z0Z42NXBnHz-2" value="GetScenePreLoadRes() 获取场景需要的预加载资源" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--0">
-          <mxGeometry y="138" width="350" height="26" as="geometry" />
+          <mxGeometry y="112" width="350" height="26" as="geometry" />
         </mxCell>
         <mxCell id="U7nyW-L80Z0Z42NXBnHz-3" value="StartUp() 开始课程，分为继续学习，和手动进入" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--0">
-          <mxGeometry y="164" width="350" height="26" as="geometry" />
+          <mxGeometry y="138" width="350" height="26" as="geometry" />
         </mxCell>
         <mxCell id="U7nyW-L80Z0Z42NXBnHz-4" value="InitLink() 初始化环节" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--0">
-          <mxGeometry y="190" width="350" height="26" as="geometry" />
+          <mxGeometry y="164" width="350" height="26" as="geometry" />
         </mxCell>
         <mxCell id="U7nyW-L80Z0Z42NXBnHz-5" value="LoadLink() 加载环节配置" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--0">
-          <mxGeometry y="216" width="350" height="26" as="geometry" />
+          <mxGeometry y="190" width="350" height="26" as="geometry" />
         </mxCell>
         <mxCell id="U7nyW-L80Z0Z42NXBnHz-6" value="IsUsePreLoad() 根据系统内存判断是否需要使用预加载" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--0">
-          <mxGeometry y="242" width="350" height="26" as="geometry" />
+          <mxGeometry y="216" width="350" height="26" as="geometry" />
         </mxCell>
         <mxCell id="U7nyW-L80Z0Z42NXBnHz-7" value="PreLoadLink() 预加载下一个环节" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--0">
-          <mxGeometry y="268" width="350" height="26" as="geometry" />
+          <mxGeometry y="242" width="350" height="26" as="geometry" />
         </mxCell>
         <mxCell id="U7nyW-L80Z0Z42NXBnHz-8" value="CourseOver() 课程结束" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--0">
-          <mxGeometry y="294" width="350" height="26" as="geometry" />
+          <mxGeometry y="268" width="350" height="26" as="geometry" />
         </mxCell>
         <mxCell id="U7nyW-L80Z0Z42NXBnHz-9" value="EnterNextLink() 进入下一个环节，外部调用。" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--0">
-          <mxGeometry y="320" width="350" height="26" as="geometry" />
+          <mxGeometry y="294" width="350" height="26" as="geometry" />
         </mxCell>
         <mxCell id="U7nyW-L80Z0Z42NXBnHz-10" value="DelayUnloadUnusedAssets() 延迟GC回收" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--0">
-          <mxGeometry y="346" width="350" height="26" as="geometry" />
+          <mxGeometry y="320" width="350" height="26" as="geometry" />
         </mxCell>
         <mxCell id="U7nyW-L80Z0Z42NXBnHz-12" value="ExitCourse() 退出课程" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--0">
-          <mxGeometry y="372" width="350" height="22" as="geometry" />
+          <mxGeometry y="346" width="350" height="22" as="geometry" />
         </mxCell>
         <mxCell id="U7nyW-L80Z0Z42NXBnHz-13" value="JumpToLink() 跳转到某个环节" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--0">
-          <mxGeometry y="394" width="350" height="22" as="geometry" />
+          <mxGeometry y="368" width="350" height="22" as="geometry" />
         </mxCell>
         <mxCell id="U7nyW-L80Z0Z42NXBnHz-14" value="SetLinkScreenImage() 设置转场游戏截图" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--0">
-          <mxGeometry y="416" width="350" height="22" as="geometry" />
+          <mxGeometry y="390" width="350" height="22" as="geometry" />
         </mxCell>
         <mxCell id="U7nyW-L80Z0Z42NXBnHz-15" value="ClearJumpLinkEffect() 清除转场游戏截图" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--0">
-          <mxGeometry y="438" width="350" height="22" as="geometry" />
+          <mxGeometry y="412" width="350" height="22" as="geometry" />
         </mxCell>
         <mxCell id="U7nyW-L80Z0Z42NXBnHz-16" value="SaveAndUploadData() 学习完成，保存并上传学习记录" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--0">
-          <mxGeometry y="460" width="350" height="22" as="geometry" />
+          <mxGeometry y="434" width="350" height="22" as="geometry" />
         </mxCell>
         <mxCell id="U7nyW-L80Z0Z42NXBnHz-17" value="UpdateLinkPos()更新环节定位" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--0">
-          <mxGeometry y="482" width="350" height="22" as="geometry" />
+          <mxGeometry y="456" width="350" height="22" as="geometry" />
         </mxCell>
         <mxCell id="U7nyW-L80Z0Z42NXBnHz-18" value="Reset() 重置数据" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--0">
-          <mxGeometry y="504" width="350" height="22" as="geometry" />
+          <mxGeometry y="478" width="350" height="22" as="geometry" />
         </mxCell>
         <mxCell id="U7nyW-L80Z0Z42NXBnHz-19" value="Destory() 销毁清理操作 退出课程场景时调用" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--0">
-          <mxGeometry y="526" width="350" height="22" as="geometry" />
+          <mxGeometry y="500" width="350" height="22" as="geometry" />
         </mxCell>
         <mxCell id="U7nyW-L80Z0Z42NXBnHz-20" value="PlayAgain() 再玩一次" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--0">
-          <mxGeometry y="548" width="350" height="22" as="geometry" />
+          <mxGeometry y="522" width="350" height="22" as="geometry" />
         </mxCell>
         <mxCell id="U7nyW-L80Z0Z42NXBnHz-21" value="GetNextCourseState() 获取下一节课的可学状态" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--0">
-          <mxGeometry y="570" width="350" height="22" as="geometry" />
+          <mxGeometry y="544" width="350" height="22" as="geometry" />
         </mxCell>
         <mxCell id="U7nyW-L80Z0Z42NXBnHz-22" value="PlayNextCourse() 学习下一课" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--0">
-          <mxGeometry y="592" width="350" height="22" as="geometry" />
+          <mxGeometry y="566" width="350" height="22" as="geometry" />
         </mxCell>
         <mxCell id="U7nyW-L80Z0Z42NXBnHz-23" value="UnlockCourse() 解锁课程，打开商城" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--0">
-          <mxGeometry y="614" width="350" height="22" as="geometry" />
+          <mxGeometry y="588" width="350" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="U7nyW-L80Z0Z42NXBnHz-25" value="NextCourseStatusData" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="670" y="550" width="300" height="240" as="geometry">
+        <mxCell id="U7nyW-L80Z0Z42NXBnHz-25" value="NextCourseStatusData（Struct）" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="640" y="550" width="300" height="240" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -113,28 +110,52 @@
         <mxCell id="U7nyW-L80Z0Z42NXBnHz-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="U7nyW-L80Z0Z42NXBnHz-21" target="U7nyW-L80Z0Z42NXBnHz-53">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="U7nyW-L80Z0Z42NXBnHz-55" value="CourseStatisticData" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="610" y="200" width="300" height="210" as="geometry">
+        <mxCell id="U7nyW-L80Z0Z42NXBnHz-55" value="CourseStatisticData（Struct）" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="650" y="120" width="300" height="346" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="U7nyW-L80Z0Z42NXBnHz-56" value="nextCourseState" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="U7nyW-L80Z0Z42NXBnHz-55">
+        <mxCell id="U7nyW-L80Z0Z42NXBnHz-56" value="CourseName 课程名称" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="U7nyW-L80Z0Z42NXBnHz-55">
           <mxGeometry y="26" width="300" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="U7nyW-L80Z0Z42NXBnHz-57" value="courseType " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="U7nyW-L80Z0Z42NXBnHz-55">
+        <mxCell id="U7nyW-L80Z0Z42NXBnHz-57" value="TopicName  题目名称" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="U7nyW-L80Z0Z42NXBnHz-55">
           <mxGeometry y="52" width="300" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="U7nyW-L80Z0Z42NXBnHz-58" value="courseName 课程名称" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="U7nyW-L80Z0Z42NXBnHz-55">
+        <mxCell id="U7nyW-L80Z0Z42NXBnHz-58" value="LessonName  课时名称 如人_id" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="U7nyW-L80Z0Z42NXBnHz-55">
           <mxGeometry y="78" width="300" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="U7nyW-L80Z0Z42NXBnHz-59" value="courseId  课程id" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="U7nyW-L80Z0Z42NXBnHz-55">
+        <mxCell id="U7nyW-L80Z0Z42NXBnHz-59" value="LessonOrder  课程序号" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="U7nyW-L80Z0Z42NXBnHz-55">
           <mxGeometry y="104" width="300" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="U7nyW-L80Z0Z42NXBnHz-60" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="U7nyW-L80Z0Z42NXBnHz-55">
-          <mxGeometry y="130" width="300" height="8" as="geometry" />
+        <mxCell id="U7nyW-L80Z0Z42NXBnHz-62" value="CurLinkName  当前环节名称，如玩，认" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="U7nyW-L80Z0Z42NXBnHz-55">
+          <mxGeometry y="130" width="300" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="U7nyW-L80Z0Z42NXBnHz-61" value="public NextCourseStatusData(int nextCourseState, int courseType, string courseName, long courseId) 构造函数" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="U7nyW-L80Z0Z42NXBnHz-55">
-          <mxGeometry y="138" width="300" height="62" as="geometry" />
+        <mxCell id="U7nyW-L80Z0Z42NXBnHz-63" value="SkinABName  皮肤标识" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="U7nyW-L80Z0Z42NXBnHz-55">
+          <mxGeometry y="156" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="U7nyW-L80Z0Z42NXBnHz-64" value="SkinName  皮肤名称" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="U7nyW-L80Z0Z42NXBnHz-55">
+          <mxGeometry y="182" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="U7nyW-L80Z0Z42NXBnHz-66" value="IsContinueLearning 是否继续学习进入" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="U7nyW-L80Z0Z42NXBnHz-55">
+          <mxGeometry y="208" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="U7nyW-L80Z0Z42NXBnHz-65" value="WrongAnswerNum  读，答环节记录" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="U7nyW-L80Z0Z42NXBnHz-55">
+          <mxGeometry y="234" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="U7nyW-L80Z0Z42NXBnHz-67" value="PlayRightCount  玩环节完成正确完成次数" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="U7nyW-L80Z0Z42NXBnHz-55">
+          <mxGeometry y="260" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="U7nyW-L80Z0Z42NXBnHz-68" value="SkipCount  当前课程跳过次数" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="U7nyW-L80Z0Z42NXBnHz-55">
+          <mxGeometry y="286" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="U7nyW-L80Z0Z42NXBnHz-69" value="WriteStrokeNum  写环节完成笔画数量" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;labelBorderColor=default;" vertex="1" parent="U7nyW-L80Z0Z42NXBnHz-55">
+          <mxGeometry y="312" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="U7nyW-L80Z0Z42NXBnHz-60" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="U7nyW-L80Z0Z42NXBnHz-55">
+          <mxGeometry y="338" width="300" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="U7nyW-L80Z0Z42NXBnHz-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zkfFHV4jXpPFQw0GAbJ--1" target="U7nyW-L80Z0Z42NXBnHz-63">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
